@@ -1,7 +1,0 @@
-[Setting]
-	#name, mod, count, tags
-	SortBy = "mod"
-	#Only valid for containers with more than 10 slots if true.
-	Filter = true
-	#Blacklist of screens.
-	Blacklist = []
