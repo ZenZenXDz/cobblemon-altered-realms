@@ -23,7 +23,6 @@
 			}
 			id: "28DAA580C7515BCC"
 			permission_level: 2
-			team_reward: true
 			type: "command"
 		}
 		{

@@ -21,6 +21,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6E39952EF0980D61"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -41,6 +42,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1C736FB449BC77AE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -61,6 +63,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2F1FB9BB6970581B"
+			permission_level: 2
 			type: "command"
 		}
 	]

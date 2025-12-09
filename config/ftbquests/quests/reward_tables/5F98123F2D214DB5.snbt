@@ -21,7 +21,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6C737F052DA33E65"
-			permission_level: 3
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -42,7 +42,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "45B990BA9B2918E8"
-			permission_level: 3
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -63,7 +63,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "471A32F81EAB1A03"
-			permission_level: 3
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -84,6 +84,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "264545283E26B607"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -104,6 +105,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "078C28E4401D0C0B"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -124,6 +126,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "7B8EF1C70B64AB34"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -144,6 +147,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "78901A2B3C4D5E6F"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -164,6 +168,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2218BB20F8A4075E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -184,6 +189,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "0C5C765909247CCE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -204,6 +210,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "01A2B3C4D5E6F789"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -224,6 +231,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1A2B3C4D5E6F7890"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -244,6 +252,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2B3C4D5E6F78901A"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -264,6 +273,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "3C4D5E6F78901A2B"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -284,6 +294,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "4D5E6F78901A2B3C"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -304,6 +315,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5E6F78901A2B3C4D"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -324,6 +336,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6F78901A2B3C4D5E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -344,6 +357,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2D3E4F5A6B7C8D9E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -364,6 +378,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "348FAE4C0950B632"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -384,6 +399,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "3C936CA918A574B0"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -404,6 +420,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "77E421811C8C8D19"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -424,6 +441,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5584258ADDACC186"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -444,6 +462,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "25B1DA0B6AA7BEBD"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -464,6 +483,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "39EA0667A8C3412E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -484,6 +504,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6C5DF813CE94AB76"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -504,6 +525,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1BFE69A5FD8D31BD"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -524,6 +546,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6697D9F2AFA2C984"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -544,6 +567,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5C652B5B1EAE1F96"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -564,6 +588,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "3EC84B092527069F"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -584,6 +609,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "16577C2C6486FA54"
+			permission_level: 2
 			type: "command"
 		}
 	]

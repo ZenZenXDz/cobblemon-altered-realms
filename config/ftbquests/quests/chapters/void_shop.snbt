@@ -469,37 +469,14 @@
 			}]
 			shape: "none"
 			tasks: [{
-				count: 2L
+				consume_items: true
+				count: 5L
 				id: "4D3A8E067D8EDA6C"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
 			x: 3.0d
 			y: -2.0d
-		}
-		{
-			can_repeat: true
-			icon: {
-				id: "supplementaries:key"
-			}
-			id: "7CF8047478DD24B3"
-			rewards: [{
-				icon: {
-					id: "supplementaries:key"
-				}
-				id: "636D592D9BB26225"
-				type: "custom"
-			}]
-			shape: "none"
-			tasks: [{
-				consume_items: true
-				count: 30L
-				id: "1D3EF771327B9840"
-				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
-				type: "item"
-			}]
-			x: 9.0d
-			y: 4.5d
 		}
 		{
 			can_repeat: true
@@ -530,7 +507,7 @@
 			shape: "none"
 			tasks: [{
 				consume_items: true
-				count: 2L
+				count: 5L
 				id: "250C111BD0C53A39"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
@@ -640,7 +617,8 @@
 			}]
 			shape: "none"
 			tasks: [{
-				count: 2L
+				consume_items: true
+				count: 5L
 				id: "4C2ED7B94D337514"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
@@ -675,7 +653,8 @@
 			}]
 			shape: "none"
 			tasks: [{
-				count: 2L
+				consume_items: true
+				count: 5L
 				id: "01E7C3BD21028872"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
@@ -705,12 +684,13 @@
 			id: "114543C3E1F7C59C"
 			rewards: [{
 				id: "5A700FF35D34B752"
-				table_id: 3588970012632942926L
+				table_id: 6576807307133164281L
 				type: "random"
 			}]
 			shape: "none"
 			tasks: [{
-				count: 2L
+				consume_items: true
+				count: 5L
 				id: "19FD876D90C31716"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
@@ -783,7 +763,8 @@
 			}]
 			shape: "none"
 			tasks: [{
-				count: 2L
+				consume_items: true
+				count: 10L
 				id: "3498CE4DC60B1979"
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"

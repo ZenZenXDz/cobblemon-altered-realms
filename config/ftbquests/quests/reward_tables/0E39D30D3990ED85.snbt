@@ -21,6 +21,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "4DE45A8D60818ADC"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -41,6 +42,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5EF56B9E71929BED"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -61,6 +63,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6F067CAF82A3ACFE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -81,6 +84,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "70178DC093B4BDFF"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -101,6 +105,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2808789122E30EAE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -121,6 +126,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "184EC78684269E1F"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -141,6 +147,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5622155738A0C44E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -161,6 +168,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "4939E355CD64D025"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -181,6 +189,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "0D364FB51E1E237E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -201,6 +210,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "4F4BD4CDE44575D6"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -221,6 +231,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2DD8D30F6ECEF0CE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -241,6 +252,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "11E15CC60B5F7F6F"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -261,6 +273,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "294D7F120B36F78E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -281,6 +294,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1FCE5D410265EAB4"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -301,6 +315,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6E4979B3210530D1"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -321,6 +336,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "588B26823F014F7F"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -341,6 +357,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "56051BC68A3EE063"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -361,6 +378,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "4EBA77110B47971A"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -381,6 +399,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "0669F90BD3112EA0"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -401,6 +420,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "11B2124674719076"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -421,6 +441,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "64889F50633D4966"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -441,6 +462,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "17602D995360D027"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -461,6 +483,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2E17936630C48360"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -481,6 +504,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "17AC797793D0C7C2"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -501,6 +525,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6A13A1E732039C11"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -521,6 +546,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6A08D71292077E6E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -541,6 +567,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5A550056F8B10360"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -561,6 +588,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1C42D32FDAEF2CE2"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -581,6 +609,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "7A3876007FF27565"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -601,6 +630,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5DF03443456ACC84"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -621,6 +651,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "26AB96B7FE93C837"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -641,6 +672,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "7E0EB3CCCE200B73"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -661,6 +693,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "321D6AD51EB3ABF5"
+			permission_level: 2
 			type: "command"
 		}
 	]

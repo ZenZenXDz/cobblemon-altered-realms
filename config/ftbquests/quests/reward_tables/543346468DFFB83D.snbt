@@ -21,6 +21,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "048FB4F207CD77DC"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -41,6 +42,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2F5BDE99299F5A09"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -61,6 +63,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "23411AC3C36A1BD3"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -81,6 +84,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "58A81E757DEB43BE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -101,6 +105,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "35D3B050E555D040"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -121,6 +126,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "621A6286519601AF"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -141,6 +147,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "00771188229933AA"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -161,6 +168,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1188229933AA44BB"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -181,6 +189,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "229933AA44BB55CC"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -201,6 +210,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "33AA44BB55CC66DD"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -221,6 +231,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "44BB55CC66DD77EE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -241,6 +252,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "55CC66DD77EE88FF"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -261,6 +273,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "66DD77EE88FF9900"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -281,6 +294,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "77EE88FF9900AA11"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -301,6 +315,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2773DB238D431D4C"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -321,6 +336,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1AA11947ACC98001"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -341,6 +357,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "39C3333B30452C1E"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -361,6 +378,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "3E5FE0F70760DD3A"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -381,6 +399,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "70B463A26188AF7F"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -401,6 +420,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2E330EAEE34FAAA4"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -421,6 +441,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "0948295EE34F68AE"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -441,6 +462,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "41B27B065304E762"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -461,6 +483,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "1122334455667788"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -481,6 +504,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "2233445566778899"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -501,6 +525,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "3344556677889900"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -521,6 +546,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "4455667788990011"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -541,6 +567,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "5566778899001122"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -561,6 +588,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "6677889900112233"
+			permission_level: 2
 			type: "command"
 		}
 		{
@@ -581,6 +609,7 @@
 				id: "cobblemon:pokemon_model"
 			}
 			id: "7788990011223344"
+			permission_level: 2
 			type: "command"
 		}
 	]
