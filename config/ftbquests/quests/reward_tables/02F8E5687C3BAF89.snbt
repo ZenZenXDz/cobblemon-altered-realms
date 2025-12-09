@@ -1,0 +1,72 @@
+{
+	id: "02F8E5687C3BAF89"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} torchic shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:torchic"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "53411A36B4DF20F8"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} mudkip shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:mudkip"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4290B3A80DECDD75"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} treecko shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:treecko"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "449CF315D20A9AF1"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

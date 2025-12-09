@@ -1,0 +1,70 @@
+{
+	id: "5068FA0D41BAEA60"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} citrillume"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:citrillume"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "67FEB44C274577E3"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} infernito"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:infernito"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "59E2344F6EBD7D35"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} potdary"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:potdary"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5E3DEABD15E991F4"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

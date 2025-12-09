@@ -1,0 +1,795 @@
+{
+	autofocus_id: "6952234F7C4FE6BC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "void_shop"
+	group: "0A9E1CF01EDDDD15"
+	id: "3C72D01DEE8C2040"
+	images: [
+		{
+			height: 15.0d
+			image: "alteredrealms:textures/quests/cobblemonshop.png"
+			rotation: 0.0d
+			width: 25.0d
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			height: 2.5d
+			image: "alteredrealms:textures/quests/gacha.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "alteredrealms:textures/quests/starters.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -3.0d
+			y: -3.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:charmander"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "26B136AD1BB1D90B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "744ADCFAE4E7C3EC"
+				table_id: 3638813152443645875L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "3F2CE0B1CB7AC264"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:cyndaquil"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "7A1C65E7B7EFC6D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54A14990E196B7DB"
+				table_id: 7318216642702475936L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "145201B9196A8214"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:torchic"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "2BB6D813C2522609"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "66928A73BD260F4A"
+				table_id: 214173219223744393L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "619376EF57E30D90"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:tepig"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "67DA1337BFAA619E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19BF44915E80E8C6"
+				table_id: 3638813152443645875L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "0CCBD24FF51A153E"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:fennekin"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "1E4BFE819D78D7FA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48DE24633FB1B13D"
+				table_id: 5652775847722633779L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "5975304205DB01D6"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:fuecoco"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "14232F8FBA809A63"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65F56BAE7AEAF112"
+				table_id: 5960796316646936141L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "08EC1603A8D86F10"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:litten"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "27543B1ECE8E8E7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "122535F82889897A"
+				table_id: 5086396167663952794L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "0611464FB6D999A8"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:scorbunny"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "511922D227CFAF6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "338603E7C443DC9E"
+				table_id: 9178725896314619296L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "17307F9D3BFA65D6"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:infernito"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "5BBA47B88D9A7481"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F757047F64B4154"
+				table_id: 5794155855456430688L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "0C6B43B1DF114210"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:scorchin"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 1.7d
+			id: "45430FDFBF751755"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "654CFBDF648FD413"
+				table_id: 6612931526277605511L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "46EFA3AF23549A14"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:flamble"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "36ADFC9FA71DB28E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "031E82CD8B9BE596"
+				table_id: 3588970012632942926L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "0F3F051068214476"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:infernito"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "10C48D81DBF18687"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54BFD9ADBF35E6A8"
+				table_id: 6888275692612570549L
+				type: "random"
+			}]
+			shape: "none"
+			tasks: [{
+				count: 2L
+				id: "4D3A8E067D8EDA6C"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				id: "supplementaries:key"
+			}
+			id: "7CF8047478DD24B3"
+			rewards: [{
+				icon: {
+					id: "supplementaries:key"
+				}
+				id: "636D592D9BB26225"
+				type: "custom"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "1D3EF771327B9840"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:scorchin"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 1.5d
+			id: "773285A9BC041CEF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E4BA8AAB7C36139"
+				table_id: 5025524420553491437L
+				type: "random"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "250C111BD0C53A39"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:emberam"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "0E35CAFB8933ADCC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1307E2C643903597"
+				table_id: 1330294652827701618L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "0A2E70C89D5F925D"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: ["jetian"]
+						species: "cobblemon:tepig"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "6C5E5CB9F5E53A8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39B0E71BAF5C32C1"
+				table_id: 3209896361544061239L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "2D55EB7453711628"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:emberam"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "3D4039FA8023A786"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6132B8A48B85138E"
+				table_id: 1238128305241083209L
+				type: "random"
+			}]
+			shape: "none"
+			tasks: [{
+				count: 2L
+				id: "4C2ED7B94D337514"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: ["jetian"]
+						species: "cobblemon:tepig"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "05CCF157BB133194"
+			rewards: [{
+				id: "3E35458D05717708"
+				table_id: 1025082443957333381L
+				type: "random"
+			}]
+			shape: "none"
+			tasks: [{
+				count: 2L
+				id: "01E7C3BD21028872"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:flamble"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "114543C3E1F7C59C"
+			rewards: [{
+				id: "5A700FF35D34B752"
+				table_id: 3588970012632942926L
+				type: "random"
+			}]
+			shape: "none"
+			tasks: [{
+				count: 2L
+				id: "19FD876D90C31716"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:chimchar"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "1350989A73C9E748"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E4651F4DF72AD39"
+				table_id: 5685826136876756202L
+				type: "choice"
+			}]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				count: 45L
+				id: "03A393F07AEFE204"
+				item: { count: 1, id: "numismaticoverhaul:gold_coin" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [""]
+						species: "cobblemon:sneaselhc"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			icon_scale: 2.0d
+			id: "0DA3D85739AE16A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09BAF3422E3428B1"
+				table_id: 2570051154759490940L
+				type: "random"
+			}]
+			shape: "none"
+			tasks: [{
+				count: 2L
+				id: "3498CE4DC60B1979"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+	]
+}

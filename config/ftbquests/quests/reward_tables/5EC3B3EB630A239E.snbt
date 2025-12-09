@@ -1,0 +1,248 @@
+{
+	id: "112EB7223C404D49"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} liwyrm"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:liwyrm"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1122334455667788"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} quantom"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:quantom"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2233445566778899"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} dusbun"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:dusbun"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "3344556677889900"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} azurill"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:azurill"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4455667788990011"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} fropple"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:fropple"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5566778899001122"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} fomantis"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:fomantis"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "6677889900112233"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} lumini"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:lumini"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7788990011223344"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} woofloo"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:woofloo"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7D8EC31F68CA8F05"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} gimmighoul"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:gimmighoul"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "29CA072AB623EAB7"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} neuveon"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:neuveon"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "0011223344556677"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} infastella"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:infastella"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1DCB6251AE0E9A55"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} stellotl"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:stellotl"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "6D424031CE1F5BEC"
+			type: "command"
+			weight: 0.25f
+		}
+	]
+}

@@ -1,0 +1,70 @@
+{
+	id: "31CE95361884094E"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} pumett"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:pumett"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "270CDA537FD28652"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} flamble"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:flamble"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "54646796E13B25F3"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} dolwashi"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:dolwashi"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2DD321B68076928E"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

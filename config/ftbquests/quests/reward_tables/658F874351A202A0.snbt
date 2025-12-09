@@ -1,0 +1,72 @@
+{
+	id: "658F874351A202A0"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} cyndaquil shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:cyndaquil"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4423057BE0042943"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} totodile shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:totodile"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "0B3C30D2D189699B"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} chikorita shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:chikorita"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "286C9E797017EEED"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

@@ -1,0 +1,590 @@
+{
+	autofocus_id: "0AA9AE5AB0680491"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_rift"
+	group: "75244564D41723EB"
+	id: "77B59489E3DE5331"
+	images: [
+		{
+			height: 1.0d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			image: "supplementaries:textures/particle/bomb_explosion_7.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 0.75d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 0.75d
+			x: 4.0d
+			y: 3.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/alteredrealms.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0AA9AE5AB0680491"
+			rewards: [
+				{
+					count: 10
+					id: "0B0A81AC4792B1A0"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:silver_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "5AACE9F9087C0EDC"
+					item: {
+						count: 1
+						id: "cobblemon:exp_share"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "6C7B7B8BE93C3A07"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "6D6325FED6182249"
+			rewards: [{
+				count: 10
+				id: "1FE0A2CBEFE89B3D"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5F517FAC7696E874"
+				item: { count: 1, id: "mega_showdown:mega_stone" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			id: "5E1AB10B15F3D4EF"
+			rewards: [{
+				count: 10
+				id: "5EE6F523E288342E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "22F3AFCD7E430C50"
+				item: { count: 1, id: "starcatcher:starcatcher_guide" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "1BD4153191D4EC55"
+			rewards: [{
+				count: 10
+				id: "744D5E0D05B56548"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5682BDB514A36131"
+				item: { count: 1, id: "cobblemon:pasture" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "3514DCD80C65CAD6"
+			rewards: [{
+				count: 10
+				id: "7DDE05E87F51C866"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "149561CA6ADEE143"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cobblenav:pokenav)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "1472E4B46424EC40"
+			rewards: [{
+				count: 10
+				id: "30DBE948EF247BA2"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7EEDFFB24E4F87A3"
+				item: { count: 1, id: "cobblefurnies:furnicrafter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			id: "60B82F2297F7850B"
+			rewards: [{
+				count: 10
+				id: "4A0EB9588EA7AC07"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "cobblemonraiddens:raid_crystal_block"
+				}
+				id: "55EBF35D70627097"
+				observe_type: 0
+				timer: 0L
+				to_observe: "cobblemonraiddens:raid_crystal_block"
+				type: "observation"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			id: "16540DC436FF9C15"
+			rewards: [{
+				count: 10
+				id: "44D1D537D7B2CA6A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [
+				{
+					id: "1C5F890224D982CE"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(simpletms:tm_items)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "255E2873D30120EB"
+					item: { count: 1, id: "simpletms:case_tm" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "6C1E5FDD592E793F"
+			rewards: [{
+				count: 10
+				id: "5C2F91E44FC45270"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2B72EF517596A88C"
+				item: { count: 1, id: "cbmnfieldlab:pokemon_field_lab" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "pastel:guidebook"
+			}
+			id: "2CF282E2B834FB0F"
+			rewards: [{
+				count: 10
+				id: "7551EF0FB1970747"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5ABFD842CC34BD29"
+				item: { count: 1, id: "pastel:guidebook" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "6C0F041313E73341"
+			rewards: [{
+				count: 10
+				id: "2A5A650355AEC333"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "57CE8D5374B3ADFD"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "233CE7945A9110F1"
+			rewards: [{
+				count: 10
+				id: "553A1CB5841CAA4B"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "468607D55C39C5CC"
+				item: { count: 1, id: "create:wrench" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "0E6B701BB3A3D485"
+			rewards: [{
+				count: 10
+				id: "0539E07027E2C679"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7BA041C00CF7B87C"
+				item: { count: 1, id: "mechtrowel:mech_trowel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "259F62C48D6578FC"
+			rewards: [{
+				count: 10
+				id: "39BE36CD4F478836"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5644E569F9708CF2"
+				item: { count: 1, id: "beautify:botanist_workbench" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "7B3DF72C6D4C3D1C"
+			rewards: [{
+				count: 10
+				id: "5B8DC01AC836F473"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "28275E42EE95170D"
+				item: { count: 1, id: "cobblemon:pasture" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "3794668D03B11AA0"
+			rewards: [{
+				count: 10
+				id: "143376B2A913818B"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7B22A2FA91D0CB83"
+				item: { count: 1, id: "rctmod:trainer_card" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "2FBCA8E9EBB691D6"
+			rewards: [{
+				count: 10
+				id: "4AEFD5BF6C616DFD"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "78A8604DC214946F"
+				item: { count: 1, id: "yuushya:bismuth_crystal" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "690138F531600883"
+			rewards: [{
+				count: 10
+				id: "55B192CFD73A8503"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0038A600C00BA9BB"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			icon: {
+				id: "datanessence:data_tablet"
+			}
+			id: "616FEF8720A0E2FA"
+			rewards: [{
+				count: 10
+				id: "1BA85A18A28C99F1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "32D062804EBA492F"
+				item: { count: 1, id: "datanessence:data_tablet" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+	]
+}

@@ -1,0 +1,2822 @@
+{
+	autofocus_id: "48F385D125DA1DD2"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cobblemon"
+	group: "75244564D41723EB"
+	id: "7AC54B76D37954BB"
+	images: [
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "ponder:textures/gui/logo.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/particle/bomb_explosion_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 9.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.25d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			height: 9.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.25d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			height: 9.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.25d
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			height: 9.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.25d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 9.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 9.25d
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 11.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/alteredrealms.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "48F385D125DA1DD2"
+			rewards: [{
+				count: 5
+				id: "3098338E7E575A90"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.75d
+			tasks: [{
+				action: "select_starter"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1FA87C77855D3678"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/fire.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "21D49E6A9AB9BAD7"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "737FC0B6F61441B8"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1CC3948C44C3F0A2"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/water.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "389396F3CA9C6162"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "37DA0B38DB425409"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "04700978B73E3AB8"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/grass.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6B93547E3E832372"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "0AF963572C299259"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "01ED54B2EF50AB67"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/electric.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6E0E35CCF03CD340"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "1D9E9A58DFE36ED4"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "03F6387EC0A73F3F"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "electric"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/ice.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "520B9D87259CADF8"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "66D44CC0101ED927"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2A7BAA2F53E24304"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/fighting.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2058CADB30A69258"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "684FEA820695BC19"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "01A31B87FD98DDED"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fighting"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/poison.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5F93FB4B19FED51A"
+			rewards: [{
+				count: 50
+				id: "650A85A48211B732"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: ""
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "006FA68DBF34660F"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/ground.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2B5919331F746252"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "60F5C0F03B4AC2CC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "53F4DC38EB112C90"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ground"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/flying.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6B8076F7DAD640C6"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "0FAD8ABAE2894F03"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "067148E8EBF35F5D"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/psychic.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "720C7D98487FC83A"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "0411E82BAA8DB52C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "04E6B6608F1B00B7"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/bug.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A9AA5B1AB61AD24"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "683659A565047A80"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "602920B162F1FA74"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/rock.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "764914CAC823EF5E"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "48DACA4248DC04EE"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7F43AC8D89D0EF97"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/ghost.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "47B350848192F867"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "5512209D561DEB29"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0BF4492520013B8F"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5B88A487F8A2E1E4"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "35BD7FC85781BC68"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: ""
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2E42BF53469F216D"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/dark.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "79A0DA9E2B5E5D14"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "30CE086C17D5DC64"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "294E236A39041274"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/steel.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "14F6724C7D257288"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "2D74AEC7104900D4"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5004BD26BE4879F0"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "steel"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/fairy.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "515762CEB41A8765"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "143341DCCF3C2F76"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "defeat"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2508DDE0BCF5A6AB"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			id: "2AA2BC3189F75838"
+			rewards: [{
+				count: 15
+				id: "591225118D188FC2"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5A8E0D6979E81C7B"
+				item: { count: 1, id: "cobblemon:pc" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			id: "4BCA43DDA5FF9A28"
+			rewards: [{
+				count: 15
+				id: "49B65A711BF92DC0"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0AE7FA9E45722E29"
+				item: { count: 1, id: "cobblemon:healing_machine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			id: "5937BB5BC0D46C94"
+			rewards: [{
+				count: 15
+				id: "00759DB7BA0A97B9"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4D2D095DEF1327F6"
+				item: { count: 1, id: "cobblemon:pasture" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			id: "0EE105388689D7AA"
+			rewards: [{
+				count: 15
+				id: "03E1370387BFDEEC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0042CA3D9C33CBCC"
+				item: { count: 1, id: "cobblemon:restoration_tank" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			id: "622C0CDA3F9033FB"
+			rewards: [{
+				count: 15
+				id: "0EC1AD787A5511B5"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4E0A43DF5E6A0354"
+				item: { count: 1, id: "cobblemon:fossil_analyzer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			id: "64E6F38F6164069A"
+			rewards: [{
+				count: 15
+				id: "6F18E0DF83751BEE"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "13B2F562519EC2BD"
+				item: { count: 1, id: "cobblemon:monitor" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				id: "mega_showdown:mega_stone_crystal"
+			}
+			id: "028679323E7754A1"
+			rewards: [{
+				count: 5
+				id: "74D43F77ECECDE09"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "720B7A0FED01D29D"
+				structure: "mega_showdown:megaroid"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			id: "3246F7F94ABBEFEA"
+			rewards: [{
+				count: 5
+				id: "22ECF893578DD2D9"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "mega_showdown:mega_stone_crystal"
+				}
+				id: "2A2FACDC58AE9E7E"
+				structure: "mega_showdown:mega_site"
+				type: "structure"
+			}]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			id: "2775847E61090305"
+			rewards: [{
+				count: 5
+				id: "12BECC98C35F49F6"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				icon: {
+					id: "minecraft:spyglass"
+				}
+				id: "1A05C518CF6C81FF"
+				structure: "mega_showdown:observatory"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/grass.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "51633E78B601B8C0"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "2F640071F9859220"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "782B7731160B3181"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "grass"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/electric.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5BF811C75850C583"
+			repeat_cooldown: 2400
+			rewards: [{
+				id: "4082349B67ED366A"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "15BF9E864E73F348"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "electric"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/ice.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "11D2535FB7F3DFCE"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "22FC8352A1D49E6A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "01CDCB73CBA77FFD"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ice"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/fighting.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7A985EC473204490"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "4F0958D1E209733C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "41B8639D4FA828A9"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fighting"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/flying.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "49499476716211FE"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "25FC2A45C10D5A2A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7C7D914BA0C38AB9"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "flying"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/fire.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "371BEDAB8AB27C0D"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "1C04394B0E81EDB7"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "23078DC2AFA2FD8C"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fire"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.5d
+			y: 15.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/water.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1A7A4658AD512FE3"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "499985887FD09395"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2107FFD9A6910780"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "water"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 15.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/ghost.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3071C307AE762B44"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "4A54534B68DAA8ED"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "795D5042D1CDB05D"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ghost"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "499A05171B802199"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "4800015173C3D3BA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "43EB978C0F7F8A25"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dragon"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/dark.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "66044F45870B35ED"
+			rewards: [{
+				count: 50
+				id: "48D2D45F27C5D667"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2075B4FD93006080"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "dark"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/bug.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "65F5C3A0523EB683"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "279A4181BD16FA0E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "697460A0F0FB824F"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "bug"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/fairy.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "729751A78D2009FF"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "67CBB2CC6EB383C9"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3ADAFAB2AF8436EE"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "fairy"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/rock.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "140CC95A069A56B6"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "7EC621A279CE477D"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2F9E8D0E52B5F334"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "rock"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 17.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/poison.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "55018CA5FE3CDDEC"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "0C9807D5C7A2C191"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: ""
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "59B71BF7F791077B"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 2.5d
+			y: 17.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/psychic.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6E594C51FF2FC6D6"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "46E6107243CABE85"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5F11D514777F7800"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "psychic"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 17.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/steel.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "496B4EAA091A1640"
+			repeat_cooldown: 2400
+			rewards: [{
+				count: 50
+				id: "110D9F550E03738E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "782E84FFD2474149"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "steel"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 17.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["48F385D125DA1DD2"]
+			dependency_requirement: "all_started"
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/ground.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2A8BF3D1217209BE"
+			repeat_cooldown: 2400
+			rewards: [{
+				id: "67762A6824F3B395"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				action: "catch"
+				amount: 1L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "63671D3082BD74BA"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: "ground"
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			id: "3AF5B9835698082E"
+			rewards: [{
+				count: 5
+				id: "3FC60BC619755FB7"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "73A1D7EAC9B502F3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mega_showdown:mega_bracelet)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			id: "638051A3DA1F368D"
+			rewards: [{
+				count: 5
+				id: "7BAD34272517255E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6ADCAD502D71DEEF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mega_showdown:z_ring)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			id: "73F3DAF5006973A0"
+			rewards: [{
+				count: 5
+				id: "733602B89749CD82"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6F8EE9AC31135642"
+				item: { count: 1, id: "mega_showdown:tera_orb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3AF5B9835698082E"
+				"638051A3DA1F368D"
+				"73F3DAF5006973A0"
+			]
+			id: "2675625F3BC89743"
+			rewards: [{
+				count: 15
+				id: "5D07DF3AFEBBB5CB"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "netheritetier"
+			tasks: [{
+				id: "0F6573B7B7A79133"
+				item: { count: 1, id: "mega_showdown:omni_ring" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:omanyte"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7E7A96FFDB040844"
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "79119DB28C4A98B9"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:omanyte"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "230703C5AEA7623A"
+					item: { count: 1, id: "cobblemon:helix_fossil" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:kabuto"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "597291D13CAD173E"
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "1082229ED2B320E8"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:kabuto"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "7A0B5DA7803E8591"
+					item: { count: 1, id: "cobblemon:dome_fossil" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:aerodactyl"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "632A95D8DF7E1650"
+			rewards: [{
+				count: 10
+				id: "0C01996949D61621"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "7D74C6857C43F8B0"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:aerodactyl"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "397D14AA86B8FE8F"
+					item: { count: 1, id: "cobblemon:old_amber_fossil" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:lileep"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "54AB7E0F371FB3D0"
+			rewards: [{
+				count: 10
+				id: "16A4F4A50A2690BA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "1777FD3F9DB8AD05"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:lileep"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "3B3EE6652415FC95"
+					item: { count: 1, id: "cobblemon:root_fossil" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:anorith"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "6EE5945B64DFF7DB"
+			rewards: [{
+				count: 10
+				id: "75B1D5C869048B88"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "629EDFEE9D0C8AD7"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:anorith"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "7EDC178D886213E2"
+					item: { count: 1, id: "cobblemon:claw_fossil" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			hide_until_deps_complete: false
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:cranidos"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "24EE724922FF96F2"
+			rewards: [{
+				count: 10
+				id: "31E5F7BD56BA041A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "268F7DD32F18C033"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:cranidos"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "0F622BCF8760054B"
+					item: { count: 1, id: "cobblemon:skull_fossil" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:shieldon"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1EDAA0FE07E01369"
+			rewards: [{
+				count: 10
+				id: "27DACB217AB78E72"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "17FF678D29BB57EE"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:shieldon"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "33851123C0D40FB8"
+					item: { count: 1, id: "cobblemon:armor_fossil" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:tirtouga"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "336088C97080BBB6"
+			rewards: [{
+				count: 10
+				id: "0894913111565706"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "7709832010123D61"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:tirtouga"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "1E5D28401783C573"
+					item: { count: 1, id: "cobblemon:cover_fossil" }
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:archen"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "335B7648E96FBBC9"
+			rewards: [{
+				count: 10
+				id: "3DBC48192BC05A13"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "71DE37421E38D2BF"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:archen"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "78B45B2A35736AA3"
+					item: { count: 1, id: "cobblemon:plume_fossil" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:tyrunt"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "74F422AA1E5620F8"
+			rewards: [{
+				count: 10
+				id: "50BC1C2B63451819"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: ""
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "544917E12819A484"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "247DF99AB419625D"
+					item: { count: 1, id: "cobblemon:jaw_fossil" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:dracozolt"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7CAD923926BDFCD3"
+			rewards: [{
+				count: 10
+				id: "65CFD2B53018C733"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "61C1208B85B08514"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:dracozolt"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "201CA1B428E65101"
+					item: { count: 1, id: "cobblemon:fossilized_bird" }
+					type: "item"
+				}
+				{
+					id: "4527E9CB473BB160"
+					item: { count: 1, id: "cobblemon:fossilized_drake" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:dracovish"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4A3DCE03B3CA814A"
+			rewards: [{
+				count: 10
+				id: "16481E53F5A27D67"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "68DC84FE96EAB7E3"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:dracovish"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "7168676A4F815A2D"
+					item: { count: 1, id: "cobblemon:fossilized_fish" }
+					type: "item"
+				}
+				{
+					id: "512EF63E3DE1B114"
+					item: { count: 1, id: "cobblemon:fossilized_drake" }
+					type: "item"
+				}
+			]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:arctozolt"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "05DF1527C8025CF3"
+			rewards: [{
+				count: 10
+				id: "7C7FCF90A28107EA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "0E78A4F0E955B5CF"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:arctozolt"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "7D5528D0AE864091"
+					item: { count: 1, id: "cobblemon:fossilized_bird" }
+					type: "item"
+				}
+				{
+					id: "2BCB40B65A8116B5"
+					item: { count: 1, id: "cobblemon:fossilized_dino" }
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["48F385D125DA1DD2"]
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:arctovish"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "61E20F752EDE57BB"
+			rewards: [{
+				count: 10
+				id: "785A78A688308D51"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			size: 1.5d
+			tasks: [
+				{
+					action: "revive_fossil"
+					amount: 1L
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					form: ""
+					gender: ""
+					id: "0B7F1AD91C61C1FC"
+					max_level: 0
+					min_level: 0
+					natures: ""
+					poke_ball_used: ""
+					pokemon: "cobblemon:arctovish"
+					pokemon_type: ""
+					region: ""
+					shiny: false
+					time_max: 24000L
+					time_min: 0L
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					id: "66A8643025FF6E67"
+					item: { count: 1, id: "cobblemon:fossilized_fish" }
+					type: "item"
+				}
+				{
+					id: "47B337614A264A9E"
+					item: { count: 1, id: "cobblemon:fossilized_dino" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 2.0d
+		}
+	]
+}

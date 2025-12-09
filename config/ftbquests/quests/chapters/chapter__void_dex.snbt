@@ -1,0 +1,3321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter__void_dex"
+	group: "0A9E1CF01EDDDD15"
+	id: "737BF42875AEEA3C"
+	images: [{
+		height: 35.0d
+		image: "alteredrealms:textures/quests/list.png"
+		rotation: 0.0d
+		width: 45.0d
+		x: 0.0d
+		y: 0.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "0DD6E9681A6EA07A"
+			rewards: [
+				{
+					count: 15
+					id: "3DAD26FD0AA0F822"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "31B8F68CAF9F081C"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "07F1133208B592FF"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "006911BC4318CA34"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 15L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "455513F1A0C18CFD"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen1"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: -6.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "563355B05BCF0974"
+			rewards: [
+				{
+					count: 25
+					id: "59981EA3885ACEE7"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "2FFF995D204EE1ED"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "04B613298991DAC9"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "054C0242B76BFBD4"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "03D9C68BD7A23982"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 38L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "7E4C6D03AA37EBD4"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen1"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: -6.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "54B754B93960CEB9"
+			rewards: [
+				{
+					count: 50
+					id: "6D5B47E404D267D5"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "2F7D9518A2EA7DE0"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "312E0AC5D97877FB"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "7BF262AC92F56441"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2EA560BAB4CFB7A8"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 76L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5E6CE0364B518653"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen1"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: -6.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "722712EC9A199BBE"
+			rewards: [
+				{
+					count: 75
+					id: "676CB4BD535B4778"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "55B19CEB14F9BDDF"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 38
+					id: "229DDF16281E819C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0E83133A29993BE5"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "36E92A226D1C5AEF"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 113L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1523CAA2BAAC290C"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen1"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: -6.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "0F7AB2A3B48E4203"
+			rewards: [
+				{
+					count: 100
+					id: "72A4736D3E680940"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "67E0B1FD692F9278"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "44F84B854E72116E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "1C1BB09BAF4D337D"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "566B472B9D900AC3"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 151L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0FA3D933877B2DB7"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen1"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: -6.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "7FA19464FF0A32D6"
+			rewards: [
+				{
+					count: 15
+					id: "03A5BAC8B4D8F701"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "40898A8C398B893E"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "24FC18D8F2BF521F"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "1280396A41D4D110"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 10L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "67D2211E68F1A578"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen2"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: -5.2d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "70DAFAC3CB7884A1"
+			rewards: [
+				{
+					count: 25
+					id: "56827FBF7D6BC522"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "62F208677CDED87D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "3B02A7F4BA5238D3"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6ADF56C93728AD65"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "2A8C018388FE58C7"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 25L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "51982170D96E8723"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen2"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: -5.2d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "50889432EE727A94"
+			rewards: [
+				{
+					count: 50
+					id: "5372113042EA9555"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "119A09EB392E0A25"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "13AC6F9E485C4A91"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "6B9DDDC5C34E96A1"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "06B7DB6C09EFB010"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 50L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "63DCC8DEEBE2D4C9"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen2"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: -5.2d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "676110F47F678795"
+			rewards: [
+				{
+					count: 75
+					id: "53680BCFA43FC83D"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "1B64AA325BDB1293"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "4DE04B3EB9C13837"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "76D87E41F2082F42"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "17062722D98A3269"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 75L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "625A890A5223C9B2"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen2"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: -5.2d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "49A841B83F228E9A"
+			rewards: [
+				{
+					count: 100
+					id: "615FB0CFD442E3DF"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "731CDB672335DBA0"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "3D17282EED7F26DF"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "3ECCD90CC36B9D65"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "64C751A5D4043C4D"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 100L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "014C1239E6B83750"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen2"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: -5.2d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "311315A743169FA6"
+			rewards: [
+				{
+					count: 15
+					id: "6A48C7C1B86FE50B"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3708BB75E1863E17"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1B27914BE15A79B9"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "787C507D31A4E424"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 14L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6ADB44CC87C19819"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen3"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: -3.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "144163557BAFB3D3"
+			rewards: [
+				{
+					count: 25
+					id: "3A4BB690DA81DF8A"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "39E1291126DF0CE9"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "4F54CFFB7E9D4399"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3808C117690D299E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "5BD0E3C5766590EF"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 34L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "38BA07F6B2A7C7BC"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen3"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: -3.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "60C0679FD0173A7C"
+			rewards: [
+				{
+					count: 50
+					id: "533AD4235D7358FE"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "151E69ED6388190B"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "692B9CD6BA87DAB9"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "078DE152DCA58FF8"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "23AD102820D8528F"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 68L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "602C22BC488154C2"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen3"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: -3.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "2648142CA1C6A074"
+			rewards: [
+				{
+					count: 75
+					id: "6FB6F7936E594CC8"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "3629A9B12713068D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "7BF2206D87BC8E68"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0BB38FE7EA027C06"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6D6E5EBD8680B5A8"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 101L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "35E0B89B9F03129B"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen3"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: -3.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "39A33F8C1254F140"
+			rewards: [
+				{
+					count: 100
+					id: "1294EBA2016B21F7"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "13358617B49BF4AE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "2007E7E3E9671196"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "0C9E1CED1715AF71"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6F8EE28F4A57DBBE"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 135L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "72291BAE17B48221"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen3"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: -3.7d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "05117BAA775A62B3"
+			rewards: [
+				{
+					count: 15
+					id: "6CCC1D9B622FA5FC"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "33DD513928B5A44A"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "612FBC49797DA67B"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "2AB73BD8D9035527"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 11L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3FD5D588F9AD4BCE"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen4"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: -2.3d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "4006E6CE7796C014"
+			rewards: [
+				{
+					count: 25
+					id: "718756027D28333D"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "49A5C6691D0EBD4B"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "686742D1C1CC5D45"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "411561987445DF9F"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "7BBE6B780A5EF02B"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 27L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4009CAD71321C973"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen4"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: -2.3d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "57C662CBF5D52E3A"
+			rewards: [
+				{
+					count: 50
+					id: "6F866FBD9C74B46D"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "1B4FE40EF2AA3139"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "203D0B93DCBAA2E3"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "7DBE950BB4EADEB2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A3FD785239119BF"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 54L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2D6C30633BA32C14"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen4"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: -2.3d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "532561866AAC7AC1"
+			rewards: [
+				{
+					count: 75
+					id: "497E9B0DF7B1FCA2"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "7DD33691492E3B46"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "65A6F8408FA579C4"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "77D987A92423B544"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "02718F3F160CE021"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 80L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1FE83782E6D306B6"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen4"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: -2.3d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "33381F1DF497224E"
+			rewards: [
+				{
+					count: 100
+					id: "76613731448F6A50"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "005493E6FE227B28"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "38A087255AD4ECC3"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "471C60813950DC18"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3885238F5C6A6446"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 107L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4C68A4F24E0802C0"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen4"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: -2.3d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "53CAF6D01B315031"
+			rewards: [
+				{
+					count: 15
+					id: "077D6180DECE149C"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "16389CCF9BA59300"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1DC9A005C8F86E9A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "1FAE682CD72E8397"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 16L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "6EACC895A07DA39B"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen5"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: -0.9d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "260810FCC01F9D79"
+			rewards: [
+				{
+					count: 25
+					id: "5994EEE0A06BC9E1"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "356B6234B92BFA77"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1468C778872B8FEB"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "143AA07B305FD080"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "25B3E9AC06250D45"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 39L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3A1F9C0835C7825F"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen5"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: -0.9d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "75D5BAABBEF0CCC5"
+			rewards: [
+				{
+					count: 50
+					id: "24AB75EFB21DC707"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "51D0A3AE9323197D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "1184D2ADE30A8170"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "50BAA65936BFE895"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "761791AA03FEF01E"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 78L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5600EC6DDB5FDCA8"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen5"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: -0.9d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "47A8ED2C4F3B1771"
+			rewards: [
+				{
+					count: 75
+					id: "12D27049187CE86D"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "0FB35F5F8C1B1560"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "1AC62A3F641C2610"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "16FF7ED383100D48"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "27AF4BD2369727AE"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 117L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2482B587667C47BF"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen5"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: -0.9d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "2A2AC464648057BE"
+			rewards: [
+				{
+					count: 100
+					id: "48067A188FFCE486"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "40F0595BA49E9116"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "483289A9552B0672"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "00E768B5F4E38EB0"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "3887120EDABBD98C"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 156L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "52325591CE1DCB1A"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen5"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: -0.9d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "2911FE6FF9072AA2"
+			rewards: [
+				{
+					count: 15
+					id: "70905028A56F9918"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4F636F79572DBE40"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5D913F6199F904E1"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "61B1E08F21368448"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 7L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0C72765ACD10AD67"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen6"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "02A01B3A56FBCFC0"
+			rewards: [
+				{
+					count: 25
+					id: "28538C9CB3572891"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "760ACAB03345A9A1"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "7F61D5191B81CF81"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "41EA978846C984A2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "25EC7B3565474C55"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 18L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4D7514FFB362E263"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen6"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "3190CC7821BB8D75"
+			rewards: [
+				{
+					count: 50
+					id: "0D57542FB31D5095"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "227C49FC2DAC10A2"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "374FBB70F2887073"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "285A6A6082422694"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "36F3275445E0D3AF"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 36L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "3748DBE9674C75D3"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen6"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "4F7ECC2B89B66E37"
+			rewards: [
+				{
+					count: 75
+					id: "0A85281F4830DD1C"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "45B251233F1B3738"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "082C0013EAE36D27"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6D0979CC6A51EA0C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6AF70E4D8360FE8C"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 54L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "4A469DD230F0A3D0"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen6"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "01BA596636367990"
+			rewards: [
+				{
+					count: 100
+					id: "013C9E1F9E54D18A"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "529A69CC333A093E"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "0398ECD921556311"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "1C5E34612AA2CA6F"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4207399CBCB0528F"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 72L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "356D4C309A4A7ED9"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen6"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "1375E64578CCEE1B"
+			rewards: [
+				{
+					count: 15
+					id: "28B680528B42A7A4"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "689EAF7111443B96"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7893ECF288D65164"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "7CEDE39EDD1C118F"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 9L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "03B7C875E7DFF5B4"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen7"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "3D7DAD77F924830A"
+			rewards: [
+				{
+					count: 25
+					id: "32193BBEE12DD657"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "6F30D72FE6C4B704"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5E391E5DCA9B8829"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1484B7C0DA4DBA67"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "3D669EFF034A8D3E"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 22L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0A0128A945F04D6D"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen7"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "680FA6F7A6030B13"
+			rewards: [
+				{
+					count: 50
+					id: "3AB28EDC8CD31CD8"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "0B0E66ED48751D55"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "04C41E5ECBB4162E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "328CFBCC4E8E3C0C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CB82529A3142DFB"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 44L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0D31523DA7FDD111"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen7"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "6ED9AC447A735843"
+			rewards: [
+				{
+					count: 75
+					id: "482E86351D2AF4D1"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "424114137C3DFFAF"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "13B7D9E4CF243C42"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "725C8DD432350FFF"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0466C24B5F702799"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 66L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "0D1E2F4051627384"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen7"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "036C5CBF46875F45"
+			rewards: [
+				{
+					count: 100
+					id: "21959D37B7D32ECB"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "5006202789B4F505"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "45BA4A4A3A297C4C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "5E0042F1BFD1F1AE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "079C487C15923FCC"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 88L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1E2F405162738495"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen7"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "2D33C7143A8B8BC1"
+			rewards: [
+				{
+					count: 15
+					id: "00C28652EA07FBFB"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5CDBEBBB332ABB21"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "64F7CEC14497BDFE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "6F7FCF2328FA003C"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 9L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "17F469010C06434E"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen8"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "3E52ED652615F096"
+			rewards: [
+				{
+					count: 25
+					id: "13B328A1C5354C23"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5B8BA0340691E9D9"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "743E849F7BA6BD04"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3B6F36F9D5B1EBCB"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "316A31E6EBDCC798"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 22L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2F405162738495A6"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen8"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "17F9ABA1E669CC69"
+			rewards: [
+				{
+					count: 50
+					id: "11F36E782DAC8425"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "2CE0CF449DF7BEFA"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "37E2C90D70F8AF14"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "530D0894CE69E5EC"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1190A7C66C46E618"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 45L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "405162738495A6B7"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen8"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "27F9D7DD1EAB70C4"
+			rewards: [
+				{
+					count: 75
+					id: "3C1B63020BFBB01E"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "042FD22C947A34CE"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "1FD664B46971FEFE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "524255ABD6776861"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "043FEB0DF4CB8D1E"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 67L
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "5162738495A6B7C8"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: ""
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "42EE33DBB1F1EA35"
+			rewards: [
+				{
+					count: 100
+					id: "73C6042343EE196C"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "4D9CB44FAC6D3DC0"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "4BA32ED07BA5A613"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 30
+					id: "4A705A0F9839C6E9"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 100
+					id: "3CF2E5B59C5383DA"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "30D8606D1B0D45AA"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 50
+					id: "0497D982B41F5B65"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 15
+					id: "10F6B11CF94D149E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0167DFEE3445A3C0"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 89L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "62738495A6B7C8D9"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen8"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "2F5A94F48953F4F2"
+			rewards: [
+				{
+					count: 15
+					id: "78BD10A2C12795D9"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "13A2CDBE46AD0A84"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "68437F53F5B4B04C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 35
+					id: "740B372058627929"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 10L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "1E43F51DB5E4730B"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen9"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "78064A28FBBDA07C"
+			rewards: [
+				{
+					count: 25
+					id: "4B764F014410B4EA"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "1C03A37CC67B4ED0"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "083D9EDCB000C09C"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3A4831CB83C66820"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 45
+					id: "032432EA943BC023"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 26L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "738495A6B7C8D9EA"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen9"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "316FDCD6F133A4A4"
+			rewards: [
+				{
+					count: 50
+					id: "7DFADCF328999766"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "75EFAD4E948C1A0A"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "3ABADDC491FC0822"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 7
+					id: "3BC74F2859B2ADF0"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "295357ED7C176D5C"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 52L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "66DEA68AE031C81D"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen9"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "3E11DBBF21674F08"
+			rewards: [
+				{
+					count: 75
+					id: "15BB60E8A1261A87"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "6C368A40140CAF7D"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 40
+					id: "4E7BBC18C5D5C5E6"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "30E2907EDDAE7EE9"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "12095CE6A4277FB7"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 77L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "2CE638E6B08A6A3C"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen9"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["351D5956AF3F7C1A"]
+			id: "595683A404C7C78D"
+			shape: "none"
+			tasks: [{
+				action: "have_registered"
+				amount: 103L
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				form: ""
+				gender: ""
+				id: "43EC8C6B6FCA9308"
+				max_level: 0
+				min_level: 0
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				region: "gen9"
+				shiny: false
+				time_max: 24000L
+				time_min: 0L
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "alteredrealms:textures/quests/alteredrealms.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "351D5956AF3F7C1A"
+			shape: "none"
+			size: 2.0d
+			tasks: [{
+				id: "2D53E24D51A3EAA1"
+				type: "checkmark"
+			}]
+			x: -4.7d
+			y: -9.0d
+		}
+	]
+}

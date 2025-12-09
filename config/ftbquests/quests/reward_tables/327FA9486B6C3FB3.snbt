@@ -1,0 +1,73 @@
+{
+	id: "327FA9486B6C3FB3"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} charmander shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:charmander"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "7BD86B460C62240C"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} squirtle shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:squirtle"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "39F7F425979A6D93"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} bulbasaur shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:bulbasaur"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "55800C4A7C90E66B"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

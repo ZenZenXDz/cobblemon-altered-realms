@@ -1,0 +1,74 @@
+{
+	id: "04BA74EF6A6CD9C7"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} cyndaquil region_bias=hisui"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:cyndaquil"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "28DAA580C7515BCC"
+			permission_level: 2
+			team_reward: true
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} oshawott region_bias=hisui"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:oshawott"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1498783A059C2679"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} rowlet region_bias=hisui"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:rowlet"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "5655D3FCA4224178"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

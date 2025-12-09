@@ -1,0 +1,2405 @@
+{
+	autofocus_id: "081F6ECFC1716C70"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter__starcatchers"
+	group: "75244564D41723EB"
+	icon: {
+		id: "starcatcher:starcatcher_rod"
+	}
+	id: "49E157875685918F"
+	images: [
+		{
+			height: 7.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/gray_stained_glass/ctm/fancy_gray_stained_glass_ctm/0"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "supplementaries:textures/particle/bomb_explosion_7.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 7.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/gray_stained_glass/ctm/fancy_gray_stained_glass_ctm/0"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 90.0d
+			width: 1.0d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			height: 11.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 17.0d
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			height: 9.25d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 17.0d
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 17.0d
+			x: 41.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 33.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 49.0d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 17.0d
+			x: 57.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 65.0d
+			y: 0.0d
+		}
+		{
+			height: 6.0d
+			image: "fzzy_config:textures/gui/sprites/widget/decoration/frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 17.0d
+			x: 72.5d
+			y: 0.0d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			id: "081F6ECFC1716C70"
+			rewards: [
+				{
+					id: "5AFB624B1EE33430"
+					item: {
+						count: 1
+						id: "starcatcher:starcatcher_guide"
+					}
+					type: "item"
+				}
+				{
+					id: "3610B8A8958D26AA"
+					item: {
+						count: 1
+						id: "starcatcher:fish_spotter"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "48615E06172CF084"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "1E5803B8402291A8"
+				item: { count: 1, id: "starcatcher:starcatcher_rod" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["081F6ECFC1716C70"]
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:hook"
+			}
+			id: "405DF882799443B7"
+			shape: "none"
+			tasks: [{
+				id: "56EAAF4886C61AD2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			hide_until_deps_complete: true
+			id: "0A3A3743F0015FC9"
+			rewards: [{
+				count: 5
+				id: "00DDD022D0D95328"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6D2F7E758D282BBE"
+				item: { count: 1, id: "starcatcher:hook" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			hide_until_deps_complete: false
+			id: "331D8783CE9FAB2F"
+			rewards: [{
+				count: 5
+				id: "4AC2866864BE2144"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "761611CCB13A8A87"
+				item: { count: 1, id: "starcatcher:mossy_hook" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			id: "1540F19F1E1CAFD0"
+			rewards: [{
+				count: 5
+				id: "1D9A2591C70C9C3F"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6C0B5E99DDFD8660"
+				item: { count: 1, id: "starcatcher:gold_hook" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			id: "1D83BDF39005CBE6"
+			rewards: [{
+				count: 5
+				id: "0D241A7316704F4E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5F95D453E76E1D4D"
+				item: { count: 1, id: "starcatcher:shiny_hook" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			id: "20E1452689A3B545"
+			rewards: [{
+				count: 5
+				id: "79DD75C5C555C230"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "638E618E4577CE50"
+				item: { count: 1, id: "starcatcher:crystal_hook" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			id: "7DEE7452BEAD7CB3"
+			rewards: [{
+				count: 5
+				id: "5B3B895227AD25B1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5BACB3C0A275D0C3"
+				item: { count: 1, id: "starcatcher:stone_hook" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["405DF882799443B7"]
+			id: "20ACA4E2F10A06C9"
+			rewards: [{
+				count: 5
+				id: "64B1D4587E4CB243"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "13A336F7F4415F15"
+				item: { count: 1, id: "starcatcher:split_hook" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["081F6ECFC1716C70"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:frugal_bobber"
+			}
+			id: "6AF0B2C6D8B5506E"
+			shape: "none"
+			tasks: [{
+				id: "3710F972EE349E71"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "14C88DE1D9D3F1BB"
+			rewards: [{
+				count: 5
+				id: "43C9C9B825D415A1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7D3BE6866F2C6727"
+				item: { count: 1, id: "starcatcher:impatient_bobber" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "78EC77A5D6355691"
+			rewards: [{
+				count: 5
+				id: "485A88F720E4D2DF"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4C299DFA2E1E86E0"
+				item: { count: 1, id: "starcatcher:steady_bobber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "4DCE485B7325CDFF"
+			rewards: [{
+				count: 5
+				id: "2E911A3069C88051"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "631DABF898C9D486"
+				item: { count: 1, id: "starcatcher:frugal_bobber" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "1DC2F0D4BB14F694"
+			rewards: [{
+				count: 5
+				id: "72E3C040F47E0E6A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "04B1BCA242320F9A"
+				item: { count: 1, id: "starcatcher:frog_bobber" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "0F511194AF075280"
+			rewards: [{
+				count: 5
+				id: "20FA6E33AA1F3026"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "068C7A9A31A43B28"
+				item: { count: 1, id: "starcatcher:creeper_bobber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "1008ED80C5C8D903"
+			rewards: [{
+				count: 5
+				id: "331C69A0B42F398C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3C232F3288C86928"
+				item: { count: 1, id: "starcatcher:glitter_bobber" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6AF0B2C6D8B5506E"]
+			id: "52E9E009057BC581"
+			rewards: [{
+				count: 5
+				id: "7B51623ED0071526"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "44DCF6E1361E7977"
+				item: { count: 1, id: "starcatcher:colorful_bobber" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			disable_toast: true
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:fish_bones"
+			}
+			id: "484E3B75080B3D67"
+			shape: "woodtier"
+			tasks: [{
+				id: "4A446332B49B988A"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: false
+			id: "6A5DA7D8C3D28AB1"
+			rewards: [{
+				count: 10
+				id: "3AE6C29E18418624"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "298081F9E4A2828F"
+				item: { count: 1, id: "minecraft:cod" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "1EE93FAFFF99C555"
+			rewards: [{
+				count: 10
+				id: "588F6115C94EC926"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7AAB0557F11466B7"
+				item: { count: 1, id: "minecraft:salmon" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			id: "27EE5BCD7540A580"
+			rewards: [{
+				count: 10
+				id: "23F9F8F7C3610937"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3548E4F5D75AF4C6"
+				item: { count: 1, id: "starcatcher:aquamarine_pike" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "33CA224DEEE994C9"
+			rewards: [{
+				count: 10
+				id: "1E13B27D1A4A0E1C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "549452F58CC0768E"
+				item: { count: 1, id: "starcatcher:blossomfish" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "160184072B82FEC4"
+			rewards: [{
+				count: 10
+				id: "60266C08F0B89230"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0615CA6B972E6B29"
+				item: { count: 1, id: "starcatcher:blue_crystal_fin" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "0140E581B78F4F88"
+			rewards: [{
+				count: 10
+				id: "7ED474C3594546FC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0CE13BA81F334CC7"
+				item: { count: 1, id: "starcatcher:deepslatefish" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "692059E683289057"
+			rewards: [{
+				count: 10
+				id: "4B4C5212D2BC80FF"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3B8400E10D9E0388"
+				item: { count: 1, id: "starcatcher:downfall_bream" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "7AB6F76033C62D00"
+			rewards: [{
+				count: 10
+				id: "6C089DBC27FF8EF8"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1DFE92B79493980A"
+				item: { count: 1, id: "starcatcher:driftfin" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "3CEC9AF70A33E595"
+			rewards: [{
+				count: 10
+				id: "461CD082A6D72914"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "27D67CEA0E135845"
+				item: { count: 1, id: "starcatcher:drifting_bream" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "62EF2FDA87A70981"
+			rewards: [{
+				count: 10
+				id: "563E38A2DCDF6E81"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1401261B9338A3A3"
+				item: { count: 1, id: "starcatcher:hollowbelly_darter" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "758A8715753CAECD"
+			rewards: [{
+				count: 10
+				id: "364A4E82307DC9F3"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "20C8FE496FE586B3"
+				item: { count: 1, id: "starcatcher:gold_fan" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "7191CBA6037F8B3A"
+			rewards: [{
+				count: 10
+				id: "1DBE1243F11301EC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1E8267CACCDAC522"
+				item: { count: 1, id: "starcatcher:glowstone_seeker" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "2EB43929AA897481"
+			rewards: [{
+				count: 10
+				id: "7E19B9B84D7E9C34"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "558DC228D019DD2C"
+				item: { count: 1, id: "starcatcher:dusktail_snapper" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "356797104A6AB70E"
+			rewards: [{
+				count: 10
+				id: "109EB5F00E34545A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "34C06EE6C301A8B2"
+				item: { count: 1, id: "starcatcher:dripfin" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			hide_until_deps_complete: false
+			id: "1DBED5C8EF152F56"
+			rewards: [{
+				count: 10
+				id: "130D6B23F7153621"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4468A0003B4E0C05"
+				item: { count: 1, id: "starcatcher:icetooth_sturgeon" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "300595928A3B1ACE"
+			rewards: [{
+				count: 10
+				id: "7ECD7A5A1FB4B4A8"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "19FFAC3D22DC3101"
+				item: { count: 1, id: "starcatcher:mistback_chub" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "64FF577A1FD7DB99"
+			rewards: [{
+				count: 10
+				id: "316CA2EF6CE53A06"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4A5E70B8BC5BED39"
+				item: { count: 1, id: "starcatcher:obidontiee" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "035A77CF71BC2504"
+			rewards: [{
+				count: 10
+				id: "27C9CF3BBCC586F0"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "79510E7062A7CFB1"
+				item: { count: 1, id: "starcatcher:deepjaw_herring" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "2BFF825882F4ECD6"
+			rewards: [{
+				count: 10
+				id: "532492B282BD2903"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "024CE2EB5F446D9E"
+				item: { count: 1, id: "starcatcher:cactifish" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "20D539CDDC6EF5EC"
+			rewards: [{
+				count: 10
+				id: "6ECCB508E0483BAF"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4660716ADF0F310A"
+				item: { count: 1, id: "starcatcher:crystalback_boreal" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "45764EAB843F6B54"
+			rewards: [{
+				count: 10
+				id: "5A2672FFC003A34D"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0BE21C75C90FD19C"
+				item: { count: 1, id: "starcatcher:crystalback_minnow" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "059D9B0FD8B970D8"
+			rewards: [{
+				count: 10
+				id: "794B60B66AEA5A1A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "48FFE294269145DD"
+				item: { count: 1, id: "starcatcher:crystalback_sturgeon" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "299D86AB378694DB"
+			rewards: [{
+				count: 10
+				id: "53DA20C9C594F38A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2651DCC4BCA2C430"
+				item: { count: 1, id: "starcatcher:crystalback_trout" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "496E7997210128EB"
+			rewards: [{
+				count: 10
+				id: "3D277B908027CCCC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "63261A27972ED667"
+				item: { count: 1, id: "starcatcher:pale_carp" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "59A2E8A6D68DF21A"
+			rewards: [{
+				id: "59A55E795983BA1B"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0B3B5CBFCC39AA95"
+				item: { count: 1, id: "starcatcher:peakdweller" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "09C9A31118872CDB"
+			rewards: [{
+				count: 10
+				id: "501F5D00E1905C00"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1A2F3B87F96B02BB"
+				item: { count: 1, id: "starcatcher:pink_koi" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "223F17AC92A572CB"
+			rewards: [{
+				count: 10
+				id: "162A40BE7DD0782C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5D3F1250903AE21B"
+				item: { count: 1, id: "starcatcher:rockgill" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "0932AD494DEF6B42"
+			rewards: [{
+				count: 10
+				id: "536A1091240441B1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "56FA12DFEEE273D7"
+				item: { count: 1, id: "starcatcher:sandtail" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "3BAA52A61E0DD7A7"
+			rewards: [{
+				count: 10
+				id: "4FD3A7210EA469F6"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "464D3C39F09BB315"
+				item: { count: 1, id: "starcatcher:whiteveil" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "000C8619FDF344C8"
+			rewards: [{
+				count: 10
+				id: "7F27E9FB84FE10F3"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2A7F35A9020D3C0E"
+				item: { count: 1, id: "starcatcher:scorchfish" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			disable_recipe_mod: false
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:bigeye_tuna"
+			}
+			id: "7935BF3183AE8C36"
+			shape: "irontier"
+			tasks: [{
+				id: "71A08E0CA95CEA55"
+				type: "checkmark"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "6A80A643B262BCCF"
+			rewards: [{
+				count: 15
+				id: "4FCCD1B7191EAD41"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "53EA62C6514CEAE9"
+				item: { count: 1, id: "starcatcher:bigeye_tuna" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			hide_until_deps_complete: false
+			id: "220A04EDC2A1B453"
+			rewards: [{
+				count: 15
+				id: "2CD865BA269A37B1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6A1A47540570D17A"
+				item: { count: 1, id: "starcatcher:black_eel" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["484E3B75080B3D67"]
+			dependency_requirement: "all_started"
+			id: "210472923BC434CA"
+			rewards: [{
+				count: 10
+				id: "5F3DB85BB32CE1E9"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "551E30F9F15C3C8A"
+				item: { count: 1, id: "starcatcher:wintery_pike" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"27EE5BCD7540A580"
+				"33CA224DEEE994C9"
+				"160184072B82FEC4"
+				"2BFF825882F4ECD6"
+				"20D539CDDC6EF5EC"
+				"45764EAB843F6B54"
+				"059D9B0FD8B970D8"
+				"059D9B0FD8B970D8"
+				"299D86AB378694DB"
+				"035A77CF71BC2504"
+				"0140E581B78F4F88"
+				"692059E683289057"
+				"7AB6F76033C62D00"
+				"3CEC9AF70A33E595"
+				"356797104A6AB70E"
+				"2EB43929AA897481"
+				"7191CBA6037F8B3A"
+				"758A8715753CAECD"
+				"62EF2FDA87A70981"
+				"1DBED5C8EF152F56"
+				"300595928A3B1ACE"
+				"64FF577A1FD7DB99"
+				"496E7997210128EB"
+				"59A2E8A6D68DF21A"
+				"09C9A31118872CDB"
+				"223F17AC92A572CB"
+				"0932AD494DEF6B42"
+				"000C8619FDF344C8"
+				"3BAA52A61E0DD7A7"
+				"210472923BC434CA"
+			]
+			hide_dependency_lines: true
+			id: "61D6CB38F9D0625B"
+			rewards: [{
+				count: 15
+				id: "76DFCFE55E86B4DC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1AE68BE989E54244"
+				type: "checkmark"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "541B52BE59FD6E5F"
+			rewards: [{
+				count: 15
+				id: "7034DD1991CAE1B0"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3EF6A302C0E70631"
+				item: { count: 1, id: "starcatcher:pinfish" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "3D8C761654EE78D1"
+			rewards: [{
+				count: 15
+				id: "19696D1F4ECD8B2A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5BB1D5AB0E006FB4"
+				item: { count: 1, id: "starcatcher:elderscale" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "52AE13B6CDA2E352"
+			rewards: [{
+				count: 15
+				id: "7CEC776DC596DB7F"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "03AAC3C0C672B717"
+				item: { count: 1, id: "starcatcher:end_glow" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "4BB825BFD7FEFD12"
+			rewards: [{
+				count: 15
+				id: "75BDC5D21C0FAAEA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "58FED592B96B96FC"
+				item: { count: 1, id: "starcatcher:garnet_mackerel" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "2DD02A38048A32B8"
+			rewards: [{
+				count: 15
+				id: "649C59123CCD54A5"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "27FBA8EC72FCD780"
+				item: { count: 1, id: "starcatcher:sludge_catfish" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "7C267977D1A9F985"
+			rewards: [{
+				count: 15
+				id: "4308BD4D17CCF797"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "0404868197F7512B"
+				item: { }
+				type: "item"
+			}]
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "62BAC190E47BA310"
+			rewards: [{
+				count: 15
+				id: "2788F8936CC5FEBD"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "1976D6570CB8D110"
+				item: { count: 1, id: "starcatcher:ironjaw_herring" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "096268E68EBDD48A"
+			rewards: [{
+				count: 15
+				id: "2243E94BADE636DA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3B6975E1B121FEA8"
+				item: { count: 1, id: "starcatcher:glowing_dark" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "2DCB082403C1C81E"
+			rewards: [{
+				count: 15
+				id: "489FF5D96C4CCC43"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "57CA99015881E1D7"
+				item: { count: 1, id: "starcatcher:ghostly_pike" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "4F080D753FA2DD41"
+			rewards: [{
+				count: 15
+				id: "5BFF4B0844C23C86"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "01F3E8F899B55397"
+				item: { count: 1, id: "starcatcher:pyrotrout" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "1D31FCB56DABF6D2"
+			rewards: [{
+				count: 15
+				id: "2F68D29F9E469FF1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4F18F11315EAC45C"
+				item: { count: 1, id: "starcatcher:silverfin_pike" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "7CAD947D93CF31DD"
+			rewards: [{
+				count: 15
+				id: "223DAAC34A023CEA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6166087048988252"
+				item: { count: 1, id: "starcatcher:magma_fish" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "4678FC8359541C98"
+			rewards: [{
+				count: 15
+				id: "10366E33EA172505"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3357F17BDA3C6B1E"
+				item: { count: 1, id: "starcatcher:mirage_carp" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "7DF4A2FDB711C05A"
+			rewards: [{
+				count: 15
+				id: "05F59CFE64799BC0"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "068301E118FD1BA1"
+				item: { count: 1, id: "starcatcher:petaldrift_carp" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7935BF3183AE8C36"]
+			id: "060C4B30AD06FA8D"
+			rewards: [{
+				count: 15
+				id: "250FA258F7441255"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "05AD8B4ADCF8318B"
+				item: { count: 1, id: "starcatcher:silverveil_perch" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6A80A643B262BCCF"
+				"220A04EDC2A1B453"
+				"52AE13B6CDA2E352"
+				"4BB825BFD7FEFD12"
+				"2DCB082403C1C81E"
+				"096268E68EBDD48A"
+				"62BAC190E47BA310"
+				"7CAD947D93CF31DD"
+				"4678FC8359541C98"
+				"7DF4A2FDB711C05A"
+				"541B52BE59FD6E5F"
+				"4F080D753FA2DD41"
+				"1D31FCB56DABF6D2"
+				"060C4B30AD06FA8D"
+				"7C267977D1A9F985"
+				"2DD02A38048A32B8"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "18F23BA8451459BE"
+			rewards: [{
+				count: 30
+				id: "542BF2D2DD0F497C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "18444E195C47DAFB"
+				type: "checkmark"
+			}]
+			x: 30.0d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:agave_bream"
+			}
+			id: "5A6FE6383694DD86"
+			shape: "irontier"
+			tasks: [{
+				id: "790238F7C6CF4FE6"
+				type: "checkmark"
+			}]
+			x: 36.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "118634E474073624"
+			rewards: [{
+				count: 25
+				id: "411E6EA97A3866CA"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2C162D36A5BDB3CF"
+				item: { count: 1, id: "starcatcher:agave_bream" }
+				type: "item"
+			}]
+			x: 39.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "7A19A2468B23D2FB"
+			rewards: [{
+				id: "685A2DAD13C33871"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "04D22D6755DEA4A4"
+				item: { count: 1, id: "starcatcher:charfish" }
+				type: "item"
+			}]
+			x: 39.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "5D77D3233954C29B"
+			rewards: [{
+				id: "60120801139D6ADE"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4E7AC36A2498C02B"
+				item: { count: 1, id: "starcatcher:cinder_squid" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "416C737A4405ABD4"
+			rewards: [{
+				count: 25
+				id: "19675ECEF71C4F93"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "59ECBD3769F1AD76"
+				item: { count: 1, id: "starcatcher:lightning_bass" }
+				type: "item"
+			}]
+			x: 40.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "3CC9BCA651E3F33E"
+			rewards: [{
+				count: 25
+				id: "5576FB6911E6A260"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "354482435DCEFCA8"
+				item: { count: 1, id: "starcatcher:lily_snapper" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "0FC3AF86EF7F23E1"
+			rewards: [{
+				count: 25
+				id: "277CCD7FFEE59F25"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3D4DCF05DD2EE6C5"
+				item: { count: 1, id: "starcatcher:molten_deepslate_crab" }
+				type: "item"
+			}]
+			x: 42.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "2CD0C38E8EE6515B"
+			rewards: [{
+				count: 25
+				id: "5E94A29AC9E0B653"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5959E92417CF427C"
+				item: { count: 1, id: "starcatcher:molten_shrimp" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "26B57D289CE83E0F"
+			rewards: [{
+				count: 25
+				id: "1B75240D76AA3D82"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "065FDAB6143B7078"
+				item: { count: 1, id: "starcatcher:pale_pinfish" }
+				type: "item"
+			}]
+			x: 43.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "766327BA906E886B"
+			rewards: [{
+				id: "2E6787B5921C7FE3"
+				item: {
+					count: 1
+					id: "minecraft:apple"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "77856A318856BA0A"
+				item: { count: 1, id: "starcatcher:sporefish" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5A6FE6383694DD86"]
+			id: "44A4356D44C08317"
+			rewards: [{
+				count: 25
+				id: "6A83DDC45DF764E1"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7E1AFAE233295202"
+				item: { count: 1, id: "starcatcher:sun_seeking_carp" }
+				type: "item"
+			}]
+			x: 45.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7A19A2468B23D2FB"
+				"5D77D3233954C29B"
+				"416C737A4405ABD4"
+				"3CC9BCA651E3F33E"
+				"0FC3AF86EF7F23E1"
+				"2CD0C38E8EE6515B"
+				"26B57D289CE83E0F"
+				"766327BA906E886B"
+				"44A4356D44C08317"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "26D04B8AF851F2DB"
+			rewards: [{
+				count: 45
+				id: "76B37058C7830228"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4C53FF203BE18CD4"
+				type: "checkmark"
+			}]
+			x: 46.0d
+			y: 2.0d
+		}
+		{
+			disable_recipe_mod: false
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:amethystback"
+			}
+			id: "1593CD9D1B38DF8B"
+			shape: "diamondtier"
+			tasks: [{
+				id: "4669ABCA8C00AD3F"
+				type: "checkmark"
+			}]
+			x: 52.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "562EBF3FBDF5BD2F"
+			rewards: [{
+				count: 35
+				id: "6FA25BCC9A74143F"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5F181F002DE1776D"
+				item: { count: 1, id: "starcatcher:amethystback" }
+				type: "item"
+			}]
+			x: 55.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "53B673A10E8FB841"
+			rewards: [{
+				count: 35
+				id: "5D90449B18BC7996"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "72E94E535880E457"
+				item: { count: 1, id: "starcatcher:bright_amethyst_snapper" }
+				type: "item"
+			}]
+			x: 55.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "76E933BE488A7AE1"
+			rewards: [{
+				count: 35
+				id: "419DD09B153CFE27"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "4C575C3801A7B487"
+				item: { count: 1, id: "starcatcher:chorus_crab" }
+				type: "item"
+			}]
+			x: 56.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "007FE4F4096AC3B4"
+			rewards: [{
+				count: 35
+				id: "476027B955A2BD0B"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "32CF8129DD5D242E"
+				item: { count: 1, id: "starcatcher:dark_amethyst_snapper" }
+				type: "item"
+			}]
+			x: 56.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "2E71C230F212755A"
+			rewards: [{
+				count: 35
+				id: "6E1EA0787FE9B4FC"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "35707592B8E9468A"
+				item: { count: 1, id: "starcatcher:geode_eel" }
+				type: "item"
+			}]
+			x: 58.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "0A7B60AA327E6CF9"
+			rewards: [{
+				count: 35
+				id: "24E0FAE0980AD9B5"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "577A1444BBA11F1E"
+				item: { count: 1, id: "starcatcher:lava_crab" }
+				type: "item"
+			}]
+			x: 58.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "493A15797F41217D"
+			rewards: [{
+				count: 35
+				id: "2504382C7448F5E9"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "79DFF0FFFD743A1F"
+				item: { count: 1, id: "starcatcher:rose_siamese_fish" }
+				type: "item"
+			}]
+			x: 59.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			icon: {
+				id: "starcatcher:amethystback"
+			}
+			id: "0F02515E0AF4FC19"
+			rewards: [{
+				count: 35
+				id: "5FA516721D894B29"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "787F8AC699F1FF94"
+				item: { count: 1, id: "starcatcher:sage_catfish" }
+				type: "item"
+			}]
+			x: 59.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1593CD9D1B38DF8B"]
+			id: "7F292FE67167D6D7"
+			rewards: [{
+				count: 35
+				id: "0FA1920E0765CE7A"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6C860FEE6AF27A20"
+				item: { count: 1, id: "starcatcher:willow_bream" }
+				type: "item"
+			}]
+			x: 61.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"562EBF3FBDF5BD2F"
+				"53B673A10E8FB841"
+				"76E933BE488A7AE1"
+				"007FE4F4096AC3B4"
+				"2E71C230F212755A"
+				"0A7B60AA327E6CF9"
+				"493A15797F41217D"
+				"0F02515E0AF4FC19"
+				"7F292FE67167D6D7"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "20532763269CA77F"
+			rewards: [{
+				count: 55
+				id: "0E238994B03F022E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:gold_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7FA0F2270302BA24"
+				type: "checkmark"
+			}]
+			x: 62.0d
+			y: 1.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "starcatcher:aurora"
+			}
+			id: "258CC920D6596B4E"
+			shape: "netheritetier"
+			tasks: [{
+				id: "572ECC87102224A1"
+				type: "checkmark"
+			}]
+			x: 67.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "13AE7EEFA305CA8B"
+			rewards: [{
+				count: 60
+				id: "044519E0F8D73B05"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "61D7F1A3C44499D1"
+				item: { count: 1, id: "starcatcher:aurora" }
+				type: "item"
+			}]
+			x: 70.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "2ED212B1BA883B1E"
+			rewards: [{
+				count: 60
+				id: "630E4359BBA4D64C"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "46676C8E29271E57"
+				item: { count: 1, id: "starcatcher:azure_crystalback_minnow" }
+				type: "item"
+			}]
+			x: 71.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "60BD78765552A094"
+			rewards: [{
+				count: 60
+				id: "13CBA407EEA4A0FF"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "7CE8A1C7B29C6D86"
+				item: { count: 1, id: "starcatcher:boreal" }
+				type: "item"
+			}]
+			x: 72.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "5211184350230337"
+			rewards: [{
+				count: 60
+				id: "2E7D1346ED41B30E"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "5C4CABE0B4A6D3FF"
+				item: { count: 1, id: "starcatcher:lush_pike" }
+				type: "item"
+			}]
+			x: 74.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "4C5D035F318B6B7C"
+			rewards: [{
+				count: 60
+				id: "6EDE3CE1F2CA08A8"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "460165E178BD8684"
+				item: { count: 1, id: "starcatcher:joel" }
+				type: "item"
+			}]
+			x: 73.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "5B96CE28007A19C6"
+			rewards: [{
+				count: 60
+				id: "22EAFA78C781F284"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "3E03C7507C5314D1"
+				item: { count: 1, id: "starcatcher:ward" }
+				type: "item"
+			}]
+			x: 73.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"13AE7EEFA305CA8B"
+				"2ED212B1BA883B1E"
+				"60BD78765552A094"
+				"5211184350230337"
+				"4C5D035F318B6B7C"
+				"5B96CE28007A19C6"
+				"779AABE21228428A"
+				"5B7EA71381EB38BA"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "438AC9525BE01202"
+			rewards: [
+				{
+					count: 70
+					id: "7C1F641C511B7B0B"
+					item: {
+						count: 1
+						id: "numismaticoverhaul:gold_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "5B132878C1A1A469"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				id: "0CCA195A3AC697AE"
+				type: "checkmark"
+			}]
+			x: 77.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "779AABE21228428A"
+			rewards: [{
+				count: 60
+				id: "053C46C5DC38FBA9"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "6B93930D526C5F69"
+				item: { count: 1, id: "starcatcher:obsidian_eel" }
+				type: "item"
+			}]
+			x: 75.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["258CC920D6596B4E"]
+			id: "5B7EA71381EB38BA"
+			rewards: [{
+				count: 60
+				id: "78BCF343732FA385"
+				item: {
+					count: 1
+					id: "numismaticoverhaul:silver_coin"
+				}
+				type: "item"
+			}]
+			shape: "none"
+			tasks: [{
+				id: "2B38016B9CD5D651"
+				item: { count: 1, id: "starcatcher:shroomfish" }
+				type: "item"
+			}]
+			x: 76.0d
+			y: -0.5d
+		}
+	]
+}

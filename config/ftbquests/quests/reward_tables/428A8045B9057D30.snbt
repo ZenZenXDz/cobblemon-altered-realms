@@ -1,0 +1,133 @@
+{
+	id: "45BE3FD5892443ED"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} frinx"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:frinx"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "77889900AABBCCDD"
+			type: "command"
+			weight: 3.5f
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} ironstalker"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:ironstalker"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "12FDD76E94FC66CE"
+			type: "command"
+			weight: 0.5f
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} pyrong"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:pyrong"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "052D18683A1D1EB6"
+			type: "command"
+			weight: 0.5f
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} tridion"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:tridion"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "00AABBCCDDEEFF11"
+			type: "command"
+			weight: 3.5f
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} griferis"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:griferis"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "4A2B1C0998A7D93A"
+			type: "command"
+			weight: 0.5f
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} torraoka"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:torraoka"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2A3CC4AF77E925CE"
+			type: "command"
+			weight: 0.5f
+		}
+	]
+}

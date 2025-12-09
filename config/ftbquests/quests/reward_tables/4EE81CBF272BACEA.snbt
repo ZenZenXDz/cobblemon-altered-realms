@@ -1,0 +1,72 @@
+{
+	id: "4EE81CBF272BACEA"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} chimchar shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:chimchar"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "542C5B5DA7212A31"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} piplup shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:piplup"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "08470288A647422B"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			auto: "disabled"
+			command: "/cobblemonquests givepokemon @p true 1 {catch} turtwig shiny:true"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: [ ]
+						species: "cobblemon:turtwig"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "237F28BE4CA7215C"
+			permission_level: 2
+			type: "command"
+		}
+	]
+}

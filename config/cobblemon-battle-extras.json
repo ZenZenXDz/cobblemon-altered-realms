@@ -1,0 +1,15 @@
+{
+  "enableTypeIcons": true,
+  "enableStatStages": true,
+  "enableAbilityPopups": true,
+  "enableWeatherTerrain": true,
+  "enableEntryHazards": true,
+  "enableControllerNavigation": true,
+  "enablePCNavigation": true,
+  "enableAutoExpandLog": true,
+  "enableBattleNameplates": true,
+  "enableScreensDisplay": true,
+  "enableVolatileStatusIcons": true,
+  "enableMoveTooltips": true,
+  "enableSwitchTooltips": true
+}

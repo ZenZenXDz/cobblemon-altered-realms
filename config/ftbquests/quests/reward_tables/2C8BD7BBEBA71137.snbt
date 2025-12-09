@@ -1,0 +1,67 @@
+{
+	id: "2C8BD7BBEBA71137"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} chikorita jetian"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: ["jetian"]
+						species: "cobblemon:chikorita"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "1B0BCD023C3B271F"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} tepig jetian"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: ["jetian"]
+						species: "cobblemon:tepig"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2C8BD7BBEBA71138"
+			type: "command"
+		}
+		{
+			command: "/cobblemonquests givepokemon @p true 1 {catch} squirtle jetian"
+			icon: {
+				components: {
+					"cobblemon:pokemon_item": {
+						aspects: ["jetian"]
+						species: "cobblemon:squirtle"
+						tint: [
+							1.0f
+							1.0f
+							1.0f
+							1.0f
+						]
+					}
+				}
+				id: "cobblemon:pokemon_model"
+			}
+			id: "2C8BD7BBEBA71139"
+			type: "command"
+		}
+	]
+}
